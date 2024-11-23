@@ -17,7 +17,9 @@ Crawling by KatanaX can crawl websites, including single-page applications or `S
 
    - Javascript crawling. 
 
-   - Custom cookies Attacks, Users can specify custom cookies to include in requests.
+- CSRF Token or Cookie Hijacking.
+
+   - Custom Cookies Attacks, Users can specify custom cookies to include in requests.
 
 <h4 align="center">Sword Master from the Under Ground</h4>
 
@@ -29,9 +31,9 @@ Crawling by KatanaX can crawl websites, including single-page applications or `S
 <h4 align="center">The Next generation of Samurai blades that Crawling and Spidering Framework.</h4>
 
 <p align="center">
-<a href="https://goreportcard.com/report/github.com/byt3n33dl3/thc-KatanaX"><img src="https://goreportcard.com/badge/github.com/byt3n33dl3/thc-KatanaX"></a>
+<a href="https://goreportcard.com/report/github.com/byt3n33dl3/thc-KatanaX"><img src="https://goreportcard.com/badge/github.com/projectdiscovery/katana"></a>
 <a href="https://github.com/byt3n33dl3/thc-KatanaX/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
-<a href="https://github.com/byt3n33dl3/thc-KatanaX/releases"><img src="https://img.shields.io/github/release/byt3n33dl3/thc-KatanaX"></a>
+<a href="https://github.com/byt3n33dl3/thc-KatanaX/releases"><img src="https://img.shields.io/github/release/projectdiscovery/katana"></a>
 <a href="https://discord.gg/projectdiscovery"><img src="https://img.shields.io/discord/695645237418131507.svg?logo=discord"></a>
 </p>
 
@@ -780,7 +782,7 @@ katana -u https://www.hackerone.com -mdc 'contains(to_lower(technologies), "php"
 ```shell
 katana -u https://www.hackerone.com -fdc 'contains(to_lower(technologies), "cloudflare")'
 ```
-DSL functions can be applied to any keys in the jsonl output. For more information on available DSL functions, please visit the [dsl project](https://github.com/projectdiscovery/dsl).
+DSL functions can be applied to any keys in the jsonl output. For more information on available DSL functions, please visit the DSL [project](https://github.com/projectdiscovery/dsl).
 
 Here are additional filter options -
 
