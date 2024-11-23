@@ -1,4 +1,4 @@
-<h1 align="center">K A T A N A X</h1>
+<h2 align="center">K A T A N A X</h2>
 
 <h1 align="center">
   <img src="/img/shogun.webp" alt="katana" width="280px">
@@ -29,9 +29,9 @@ Crawling by KatanaX can crawl websites, including single-page applications or `S
 <h4 align="center">The Next generation of Samurai blades that Crawling and Spidering Framework.</h4>
 
 <p align="center">
-<a href="https://goreportcard.com/report/github.com/projectdiscovery/katana"><img src="https://goreportcard.com/badge/github.com/projectdiscovery/katana"></a>
-<a href="https://github.com/projectdiscovery/katana/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
-<a href="https://github.com/projectdiscovery/katana/releases"><img src="https://img.shields.io/github/release/projectdiscovery/katana"></a>
+<a href="https://goreportcard.com/report/github.com/byt3n33dl3/thc-KatanaX"><img src="https://goreportcard.com/badge/github.com/byt3n33dl3/thc-KatanaX"></a>
+<a href="https://github.com/byt3n33dl3/thc-KatanaX/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+<a href="https://github.com/byt3n33dl3/thc-KatanaX/releases"><img src="https://img.shields.io/github/release/byt3n33dl3/thc-KatanaX"></a>
 <a href="https://discord.gg/projectdiscovery"><img src="https://img.shields.io/discord/695645237418131507.svg?logo=discord"></a>
 </p>
 
@@ -963,9 +963,9 @@ import (
 	"math"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/katana/pkg/engine/standard"
-	"github.com/projectdiscovery/katana/pkg/output"
-	"github.com/projectdiscovery/katana/pkg/types"
+	"github.com/byt3n33dl3/thc-KatanaX/pkg/engine/standard"
+	"github.com/byt3n33dl3/thc-KatanaX/pkg/output"
+	"github.com/byt3n33dl3/thc-KatanaX/pkg/types"
 )
 
 func main() {
@@ -1004,7 +1004,7 @@ func main() {
 
 <div align="center">
 
-Katana is made with Love by the [projectdiscovery](https://projectdiscovery.io) team and [byt3n33dl3@pm.me](mailto:byt3n33dl3@proton.me).distributed under [II License](LICENSE.md).
+Katana is made with Love by the [projectdiscovery](https://projectdiscovery.io) team and [byt3n33dl3@pm.me](mailto:byt3n33dl3@proton.me). distributed under [II License](LICENSE.md).
 
 </div>
 
