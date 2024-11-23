@@ -1,4 +1,25 @@
 <h1 align="center">
+  <img src="/img/shogun.webp" alt="katana" width="200px">
+  <br>
+</h1>
+
+KatanaX is a command-line interface (CLI) web crawling tool that gathers information and endpoints from websites. It's designed to be fast, efficient, and provide simple output. Katana's functions include
+
+Crawling by KatanaX can crawl websites, including single-page applications or `SPAs` built with JavaScript, Angular, or React. It supports both headless and non-headless crawling modes. 
+
+- Field extraction of KatanaX's advanced field extraction capabilities allow users to fine-tune the output to match their specific needs. 
+
+   - Custom fields for Users can create custom fields to extract and store specific information from page responses using regex rules. 
+
+   - Automatic form filling on KatanaX has an experimental feature that enables automatic form filling for known and unknown fields. 
+
+   - Javascript crawling. 
+
+   - Custom cookies Attacks, Users can specify custom cookies to include in requests.
+
+<h4 align="center">Sword Master from the Under Ground</h4>
+
+<h1 align="center">
   <img src="/img/katana-logo.png" alt="katana" width="200px">
   <br>
 </h1>
@@ -200,8 +221,6 @@ OUTPUT:
 
 ## Running Katana
 
-### Input for katana
-
 katana requires url or endpoint to crawl and accepts single or multiple inputs.
 
 Input URL can be provided using `-u` option, and multiple values can be provided using comma-separated input, similarly file input is supported using `-list` option and additionally piped input (stdin) is also supported.
@@ -248,7 +267,7 @@ katana -u https://youtube.com
    __        __                
   / /_____ _/ /____ ____  ___ _
  /  '_/ _  / __/ _  / _ \/ _  /
-/_/\_\\_,_/\__/\_,_/_//_/\_,_/ v0.0.1                     
+/_/\_\\_,_/\__/\_,_/_//_/\_,_/ v2                     
 
       projectdiscovery.io
 
@@ -348,7 +367,7 @@ When crawling in headless mode, additional chrome options can be specified using
 
 
 ```console
-katana -u https://tesla.com -headless -system-chrome -headless-options --disable-gpu,proxy-server=http://127.0.0.1:8080
+katana -u https://tesla.com -headless -system-chrome -headless-options --disable-gpu,proxy-server=http://127.2:8080
 ```
 
 
@@ -578,7 +597,7 @@ step 2) Start chrome with remote debugging enabled and it will return websocker 
 $ /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
 
 
-DevTools listening on ws://127.0.0.1:9222/devtools/browser/c5316c9c-19d6-42dc-847a-41d1aeebf7d6
+DevTools listening on ws://127.2:9222/devtools/browser/c5316c9c-19d6-42dc-847a-41d1aeebf7d6
 ```
 
 > Now login to the website you want to crawl and keep the browser open.
@@ -586,7 +605,7 @@ DevTools listening on ws://127.0.0.1:9222/devtools/browser/c5316c9c-19d6-42dc-84
 step 3) Now use the websocket url with katana to connect to the active browser session and crawl the website
 
 ```console
-katana -headless -u https://tesla.com -cwu ws://127.0.0.1:9222/devtools/browser/c5316c9c-19d6-42dc-847a-41d1aeebf7d6 -no-incognito
+katana -headless -u https://tesla.com -cwu ws://127.2:9222/devtools/browser/c5316c9c-19d6-42dc-847a-41d1aeebf7d6 -no-incognito
 ```
 
 > Note: you can use `-cdd` option to specify custom chrome data directory to store browser data and cookies but that does not save session data if cookie is set to `Session` only or expires after certain time.
