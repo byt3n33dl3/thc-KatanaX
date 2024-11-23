@@ -54,7 +54,7 @@ Crawling by KatanaX can crawl websites, including single-page applications or `S
 
  - Fast And fully configurable web crawling
  - Standard and Headless mode
- - JavaScript parsing or crawling
+ - Javascript parsing or crawling
    - CSRF crawling and execution
  - Customizable automatic form filling
  - Scope control - Preconfigured field or Regex 
@@ -223,6 +223,15 @@ OUTPUT:
    -debug                            display debug output
    -version                          display project version
 ```
+
+# Samurai
+
+![image](/img/katana-img.png)
+
+ - Fast forward
+ - Standalone Capability
+ - Javascript parsing
+   - Server and Services Manipulation
 
 ## Running Katana
 
@@ -1011,10 +1020,12 @@ Katana is made with Love by the [Projectdiscovery](https://projectdiscovery.io) 
 
 </div>
 
-# Credit / `main`
+# Credits / `main`
 
 <p align="left">
 <a href="https://github.com/byt3n33dl3"><img src="https://avatars.githubusercontent.com/u/151133481?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/wvu"><img src="https://avatars.githubusercontent.com/u/4551878?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/sinn3r"><img src="https://avatars.githubusercontent.com/u/1015218?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
 <a href="https://github.com/projectdiscovery"><img src="https://avatars.githubusercontent.com/u/50994705?s=200&v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
 <a href="https://github.com/apps/dependabot"><img src="https://avatars.githubusercontent.com/in/29110?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
 <a href="https://github.com/ehsandeep"><img src="https://avatars.githubusercontent.com/u/8293321?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
