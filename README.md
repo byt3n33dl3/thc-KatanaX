@@ -1,3 +1,5 @@
+<h1 align="center">K A T A N A X</h1>
+
 <h1 align="center">
   <img src="/img/shogun.webp" alt="katana" width="280px">
   <br>
