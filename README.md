@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="/img/shogun.webp" alt="katana" width="300px">
+  <img src="/img/shogun.webp" alt="katana" width="280px">
   <br>
 </h1>
 
@@ -1005,3 +1005,14 @@ func main() {
 Katana is made with Love by the [projectdiscovery](https://projectdiscovery.io) team and [byt3n33dl3@pm.me](mailto:byt3n33dl3@proton.me).distributed under [II License](LICENSE.md).
 
 </div>
+
+# Credits / `Master`
+
+<p align="left">
+<a href="https://github.com/byt3n33dl3"><img src="https://avatars.githubusercontent.com/u/151133481?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/projectdiscovery"><img src="https://avatars.githubusercontent.com/u/50994705?s=200&v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/apps/dependabot"><img src="https://avatars.githubusercontent.com/in/29110?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/ehsandeep"><img src="https://avatars.githubusercontent.com/u/8293321?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/ErikOwen"><img src="https://avatars.githubusercontent.com/u/4740002?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/OceanExec"><img src="https://avatars.githubusercontent.com/u/171657497?s=200&v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+</p>
