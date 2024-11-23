@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img src="/img/shogun.webp" alt="katana" width="200px">
+  <img src="/img/shogun.webp" alt="katana" width="300px">
   <br>
 </h1>
 
-KatanaX is a command-line interface (CLI) web crawling tool that gathers information and endpoints from websites. It's designed to be fast, efficient, and provide simple output. Katana's functions include
+KatanaX is a command line interface `CLI` web crawling tool that gathers information and endpoints from websites. It's designed to be fast, efficient, and provide simple output. Katana's functions include
 
 Crawling by KatanaX can crawl websites, including single-page applications or `SPAs` built with JavaScript, Angular, or React. It supports both headless and non-headless crawling modes. 
 
