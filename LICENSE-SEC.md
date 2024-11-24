@@ -1,16 +1,16 @@
 University of Illinois/NCSA Open Source License
 
 Copyright (c) 2024 @byt3n33dl3.
-Copyright (c) 2024 @projectdiscovery.All rights reserved.
+Copyright (c) 2024 @projectdiscovery. All rights reserved.
 
 Developed by: 
-- byt3n33dl3
-- projectdiscovery
+- @byt3n33dl3
+- [Projectdiscovery](https://github.com/projectdiscovery)
 - [thc-KatanaX](https://github.com/byt3n33dl3/thc-KatanaX)
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation files
-(the "Software"), to deal with the Software without restriction,
+the ("Software"), to deal with the Software without restriction,
 including without limitation the rights to use, copy, modify, merge,
 publish, distribute, sublicense, and/or sell copies of the Software,
 and to permit persons to whom the Software is furnished to do so,
