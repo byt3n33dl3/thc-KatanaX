@@ -1,5 +1,5 @@
-#ifndef MASSCAN_STATUS_H
-#define MASSCAN_STATUS_H
+#ifndef KATANAX_STATUS_H
+#define KATANAX_STATUS_H
 
 #if 0
 enum PortStatus {

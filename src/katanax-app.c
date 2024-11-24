@@ -1,4 +1,4 @@
-#include "masscan-app.h"
+#include "katanax-app.h"
 #include "string_s.h"
 
 /******************************************************************************
@@ -6,7 +6,7 @@
  * banner that we've collected
  ******************************************************************************/
 const char *
-masscan_app_to_string(enum ApplicationProtocol proto)
+katanax_app_to_string(enum ApplicationProtocol proto)
 {
     static char tmp[64];
 
@@ -46,7 +46,7 @@ masscan_app_to_string(enum ApplicationProtocol proto)
 /******************************************************************************
  ******************************************************************************/
 enum ApplicationProtocol
-masscan_string_to_app(const char *str)
+katanax_string_to_app(const char *str)
 {
     const static struct {
         const char *name;

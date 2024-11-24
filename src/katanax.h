@@ -1,5 +1,5 @@
-#ifndef MASSCAN_H
-#define MASSCAN_H
+#ifndef KATANAX_H
+#define KATANAX_H
 #include "string_s.h"
 #include "main-src.h"
 #include <string.h>
@@ -15,7 +15,7 @@ struct TemplateSet;
 struct Banner1;
 
 /**
- * This is the "operationg" to be performed by masscan, which is almost always
+ * This is the "operationg" to be performed by KATANAX, which is almost always
  * to "scan" the network. However, there are some lesser operations to do
  * instead, like run a "regression self test", or "debug", or something else
  * instead of scanning. We parse the command-line in order to figure out the
@@ -83,13 +83,13 @@ struct TcpCfgPayloads
 
 
 /**
- * This is the master MASSCAN configuration structure. It is created on startup
+ * This is the master KATANAX configuration structure. It is created on startup
  * by reading the command-line and parsing configuration files.
  *
  * Once read in at the start, this structure doesn't change. The transmit
  * and receive threads have only a "const" pointer to this structure.
  */
-struct Masscan
+struct KATANAX
 {
     /**
      * What this progrma is doing, which is normally "Operation_Scan", but
@@ -417,23 +417,23 @@ struct Masscan
 
 
 int mainconf_selftest(void);
-void masscan_read_config_file(struct Masscan *masscan, const char *filename);
-void masscan_command_line(struct Masscan *masscan, int argc, char *argv[]);
-void masscan_usage(void);
-void masscan_save_state(struct Masscan *masscan);
-void main_listscan(struct Masscan *masscan);
+void KATANAX_read_config_file(struct KATANAX *KATANAX, const char *filename);
+void KATANAX_command_line(struct KATANAX *KATANAX, int argc, char *argv[]);
+void KATANAX_usage(void);
+void KATANAX_save_state(struct KATANAX *KATANAX);
+void main_listscan(struct KATANAX *KATANAX);
 
 /**
  * Pre-scan the command-line looking for options that may affect how
  * previous options are handled. This is a bit of a kludge, really.
  */
-int masscan_conf_contains(const char *x, int argc, char **argv);
+int KATANAX_conf_contains(const char *x, int argc, char **argv);
 
 
 
 int
-masscan_initialize_adapter(
-    struct Masscan *masscan,
+KATANAX_initialize_adapter(
+    struct KATANAX *KATANAX,
     unsigned index,
     unsigned char *adapter_mac,
     unsigned char *router_mac);
