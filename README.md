@@ -1,5 +1,12 @@
 <h1 align="center">K A T A N A X</h1>
 
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#scope-control">Scope</a>
+</p>
+
 <h1 align="center">
   <img src="/img/shogun.webp" alt="katana" width="280px">
   <br>
@@ -72,7 +79,7 @@ katana requires Go 1.18 to install successfully. To install, just run the below 
 CGO_ENABLED=1 go install github.com/byt3n33dl3/thc-KatanaX/cmd/katana@latest
 ```
 
-More options to install / run katana-
+More options to install / run katanaX
 
 <details>
   <summary>Docker</summary>
